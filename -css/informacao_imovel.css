@@ -1,0 +1,45 @@
+@charset"utf-8";
+   *{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   .informacao_11 h1{
+   text-transform: uppercase;
+   margin-left: 40px;
+   margin-top: 25px;
+   font-size: 35px;
+   font-style:oblique;
+	font-weight: bold;
+
+   }
+   .card1-casa{
+   height: 100px;
+   background: #fff;
+
+   }
+   .informacao1{
+   	background: #fff;
+   	border-top: 3px solid #A72121;
+
+   	
+   }
+   .informacao1 h2{
+   	text-transform:uppercase;
+   	font-weight: 300;
+   	
+   }
+   .aluguepor{
+  font-family: arial;
+  
+  color: #ACACAC;
+   }
+   .icnis{
+ margin-top: -80px;
+   }
+   .informacao3 h1{
+  font-style:oblique;
+	font-weight: bold;
+	color: #A72121;
+	font-size: 25px;
+   }

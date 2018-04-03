@@ -1,0 +1,64 @@
+ @charset"utf-8";
+ div.bg{
+    background-color: #343a40;
+
+    color: #fff;
+}
+div.cg{
+
+
+    color: #323232;
+    background: rgb(244, 244, 244);
+}
+body{
+   background-color: rgb(212, 212, 212);
+}
+.loginh1{
+ font-size: 28px;
+ text-align: center;
+ font-style:oblique;
+    font-weight: bold;
+    color: #064484;
+ /*font-weight: 800;*/
+
+}
+
+.iconi3{
+ width: 40px;
+
+}
+.textocadrasto{
+  font-style:oblique;
+    font-weight: bold;
+    color: #064484;
+    font-size: 20px;
+
+}
+.adicionar{
+ text-align: center;
+ background: #B30D0D;
+ 
+}
+.adicionar a{
+  color: #ffffff;
+}
+.loginp{
+  font-size: 15px;
+ text-align: center;
+ font-weight: 300;
+font-family: "helvetica";
+
+    
+
+
+
+
+/*font-family: "courier";*/
+
+}
+.idcss{
+   border-top: 3px solid #B30D0D;
+   background-color: #fff;
+   padding: 10px;
+
+}
