@@ -1,0 +1,39 @@
+  div.bg{
+    background-color: #343a40;
+
+    color: #fff;
+}
+div.cg{
+
+
+    color: #323232;
+    background: rgb(244, 244, 244);
+}
+body{
+   background-color: rgb(212, 212, 212);
+}
+.idcss{
+   border-top: 3px solid #B30D0D;
+   background-color: #fff;
+   padding: 10px;
+
+}
+.vedaseuimove{
+font-style:oblique;
+    font-weight: bold;
+    color: #064484;
+    font-size: 40px; 
+}
+
+.informacao{
+
+
+ font-style:oblique;
+    font-weight: bold;
+    color: #064484;
+}
+
+.adicionar{
+ text-align: center;
+ background: #B30D0D;
+}
