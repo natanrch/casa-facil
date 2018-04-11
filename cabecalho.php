@@ -8,7 +8,7 @@
 	<link rel="stylesheet"  href="-css/header.css">
 	<link rel="stylesheet"  href="-css/footer.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
 	<?= $cssExtra ?>
 	
 	
@@ -86,7 +86,6 @@
 
 
 				<ul>
-					
 					<li class="tipos_imoves"><a href="#" class="home2texto">Tipos  </a>
 
 						<ul>
@@ -98,7 +97,6 @@
 						</ul>
 					</li>
 					<li><a href="#" class="home2texto">Bairros </a>
-
 						<ul>
 							<li><a href="bairro_universidade.html">Universidade</a> </li>
                             <li><a href="#">Cogos </a> </li>
@@ -109,8 +107,6 @@
 					</li>
 					<li><a href="lancamentos.html" class="home2texto2">Lançamentos  </a>
 					</li>
-                    
-
 				</ul>
 
 			</div>

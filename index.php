@@ -7,7 +7,6 @@
 ?>
 
 	<div id="promocao" style="margin: 0;padding: 0">
-			
 				<div class="carousel slide" data-ride="carousel" id="controleCarrosel" >
                     <div class="carousel-inner">
                         <ol class="carousel-indicators">
@@ -83,100 +82,64 @@
                         </a>
                     </div>
                 </div>
-			
 	</div>
 	<main class="container" >
-
 		<div>
 			<div class="row">
 				<div class="col-12 content_cabesalho" >
-					
-					
-						<h1>Imóveis em destaque</h1>
+					<h1>Imóveis em destaque</h1>
 					<button class="btn mais" style=""> Veja mais » </button>
-					
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-12">
 				<div class="card-group">
-					<div class="card" >
+					<div class="card mr-3" >
 						<div class="Apartamento ">
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
 						<figcaption>
-
-					<a  href="Informacao_imvel.html"><img  src="img/destaque1.jpg"></a>	
+						<a  href="Informacao_imvel.html"><img  src="img/destaque1.jpg" class="img_hover card__img"></a>
                          </figcaption>
-
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>
-						
-
-
 						<div class="preco col-12 card-body1 ">R$ 400.000,00
 							<span class="float-xl-right icnis" >
-
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
 								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
 							</span>
-
 						</div>
-
-
-
-
-
-
-
 					</div>
-					<div class="card ml-3" >
+					<div class="card mr-3" >
 						<div class="Apartamento ">
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
-
-                        <a href="informacao_imvel.html">		<img class="img_hover" src="img/casa1.jpg"></a>
+                        <a href="informacao_imvel.html">		<img class="img_hover card__img" src="img/casa1.jpg" ></a>
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapa-ap</span>
 						</p>
-						
-
-
 						<div class="preco col-12 card-body1 ">R$ 400.000,00
 							<span class="float-xl-right icnis" >
-
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
 								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
 							</span>
-
 						</div>
-
-
-
-
-
-
-
 					</div>
-					<div class="card ml-3"  >
+					<div class="card"  >
 						<div class="Apartamento ">
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
-
-						<a href="Informacao_imvel.html"><img class="img_hover" src="img/destaque2.jpg"></a>
+						<a href="Informacao_imvel.html"><img class="img_hover card__img" src="img/destaque2.jpg"></a>
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>
-						
-
-
 						<div class="preco col-12 card-body1 ">R$ 400.000,00
 							<span class="float-xl-right icnis" >
 
@@ -184,22 +147,12 @@
 								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
 							</span>
-
 						</div>
-
-
-
-
-
-
-
 					</div>
 				</div>
-				
-
 			</div>
 		</div>
-		<div class="row mt-4 mb-4">
+		<div class="row mt-3 mb-4">
 			<div class="col-12">
 				<div class="card-group">
 					<div class="card" >
@@ -207,94 +160,53 @@
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
-
-                        <a href="informacao_imvel.html">	<img class="img_hover" src="img/destaque1.jpg"></a>
+                        <a href="informacao_imvel.html">	<img class="img_hover card__img" src="img/destaque1.jpg"></a>
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>
-						
-
-
 						<div class="preco col-12 card-body1 ">R$ 400.000,00
 							<span class="float-xl-right icnis" >
-
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
 								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
 							</span>
-
 						</div>
-
-
-
-
-
-
-
 					</div>
 					<div class="card ml-3" >
 						<div class="Apartamento ">
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
-
-                        <a href="informacao_imvel.html"><img class="img_hover" src="img/destaque1.jpg"></a>
+                        <a href="informacao_imvel.html"><img class="img_hover card__img" src="img/destaque1.jpg"></a>
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>
-						
-
-
 						<div class="preco col-12 card-body1 ">R$ 400.000,00
 							<span class="float-xl-right icnis" >
-
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
 								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
 							</span>
-
 						</div>
-
-
-
-
-
-
-
 					</div>
-					<div class="card ml-3 "  >
+					<div class="card ml-3"  >
 						<div class="Apartamento ">
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
-
-                        <a href="informacao_imvel.html">	<img class="img_hover" src="img/casa111.jpg" style=""></a>
+                        <a href="informacao_imvel.html">	<img class="img_hover card__img" src="img/casa111.jpg" style=""></a>
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>
-						
-
-
 						<div class="preco col-12 card-body1 ">R$ 400.000,00
 							<span class="float-xl-right icnis" >
-
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
 								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
 							</span>
-
 						</div>
-
-
-
-
-
-
-
 					</div>
 				</div>
-				
-
 			</div>
 		</div>
 	</main>
