@@ -1,5 +1,5 @@
 <?php
-	$titulo = 'Página inicial';
+	$titulo = 'Casas';
 	$cssExtra = '<link rel="stylesheet" href="-css/lancamentos.css" >';
 	include 'cabecalho.php';
 ?>
