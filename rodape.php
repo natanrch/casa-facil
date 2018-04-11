@@ -26,15 +26,17 @@
 				<li>(96)991082902</li>
 				<li>mateusbahia375@gmail.com</li>
 			</ol>
-			<a class="btn btn-social-icon btn-facebook" style="background:  #3B5998; width: 40px; height: 38px; padding: 6px;font-size: 22px">
-				<span class="fa fa-facebook"></span>
-			</a>
-        	<a class="btn btn-social-icon btn-twitter" style="background:   #55ACEE;width: 40px; height: 38px; padding: 6px;font-size: 22px">
-				<span class="fa fa-twitter"></span>
-			</a>
-			<a class="btn btn-social-icon btn-instagram" style="background:   #3F729B;width: 40px; height: 38px; padding: 6px;font-size: 22px">
-				<span class="fa fa-instagram"></span>
-			</a>
+			<div class="rede__social">
+				<a class="btn btn-social-icon btn-facebook" style="background:  #3B5998; width: 40px; height: 38px; padding: 6px;font-size: 22px">
+					<span class="fa fa-facebook"></span>
+				</a>
+	        	<a class="btn btn-social-icon btn-twitter" style="background:   #55ACEE;width: 40px; height: 38px; padding: 6px;font-size: 22px">
+					<span class="fa fa-twitter"></span>
+				</a>
+				<a class="btn btn-social-icon btn-instagram" style="background:   #3F729B;width: 40px; height: 38px; padding: 6px;font-size: 22px">
+					<span class="fa fa-instagram"></span>
+				</a>
+			</div>
 		</div>
 	</div>
 	<footer class="forterrodape">
