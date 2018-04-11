@@ -178,7 +178,7 @@ height: 60px;background: #F7F6F6;
  margin-top: 20px;
 
 }
-.foter{
+/*.foter{
 display: 
 		-webkit-flex;
 		-webkit-flex-flow: row; 
@@ -200,7 +200,7 @@ background: black;
 .footer1,.footer2 h2{
 	color: #ffffff;
 font-family:serif;
-}
+}*/
 @media all and (max-width: 400px){
 	.artigo1{
 		display: flex;
