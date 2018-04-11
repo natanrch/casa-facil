@@ -38,7 +38,7 @@
 					<button style="background:   #55ACEE;border: none; width: 30px;border-radius: 1em" >
 						<span class="fa fa-twitter  " ></span>
 					</button>
-					<a href="cadrastodousuario.html"><button class="btn cadrstese" >Cdraste-se</button></a>
+					<a href="cadrastodousuario.html"><button class="btn cadrstese" >Cadastre-se</button></a>
 
 				</div>	
 			</div>
