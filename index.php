@@ -3,7 +3,7 @@
 	$titulo = 'Página inicial';
 	$cssExtra = '	<link rel="stylesheet" type="text/css" href="css/promocao.css">
 	<link rel="stylesheet" type="text/css" href="-css/principal.css">';
-	include 'cabecalho.php';
+	include 'cabecalho.php'; //alteração
 ?>
 
 	<div id="promocao" style="margin: 0;padding: 0">
