@@ -36,6 +36,9 @@
 				<a class="btn btn-social-icon btn-instagram" style="background:   #3F729B;width: 40px; height: 38px; padding: 6px;font-size: 22px">
 					<span class="fa fa-instagram"></span>
 				</a>
+				<a class="btn btn-social-icon btn-telegram" style="background:   #33a8e2;width: 40px; height: 38px; padding: 6px;font-size: 22px">
+					<span class="fa fa-telegram"></span>
+				</a>
 			</div>
 		</div>
 	</div>
