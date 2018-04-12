@@ -54,7 +54,8 @@ height: 300px
 }
 .footer2{
 	height: 70px;
-background: black;
+  background: black;
+  padding-top: 25px;
 }
 .rodape li{
 	color: #EFEDED;

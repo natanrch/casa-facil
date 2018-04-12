@@ -45,7 +45,7 @@
 	<footer class="forterrodape">
 		<div class="footer2 ">
 			<div  style="text-align: center;" >
-				<b style=" color: #fff;">Imobiliária casa facil © 2018 </b> &nbsp;&nbsp;- Todos os direitos reservados.
+				<b style=" color: #fff;">&copy; Imobiliária casa facil 2018 </b> &nbsp;&nbsp;- Todos os direitos reservados.
 			</div>
 		</div>
 	</footer>
