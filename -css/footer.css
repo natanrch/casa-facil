@@ -54,7 +54,8 @@ height: 300px
 }
 .footer2{
 	height: 70px;
-background: black;
+  background: black;
+  padding-top: 25px;
 }
 .rodape li{
 	color: #EFEDED;
@@ -82,6 +83,5 @@ font-family:verdana;
 
  	}
   .rede__social {
-    width: 51%;
-    margin: 0 auto;
+    width: 69%;
   }
