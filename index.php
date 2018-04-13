@@ -1,6 +1,6 @@
 
 <?php
-	$titulo = 'Página inicial';
+	$titulo = 'Página casa facil';
 	$cssExtra = '	<link rel="stylesheet" type="text/css" href="css/promocao.css">
 	<link rel="stylesheet" type="text/css" href="-css/principal.css">';
 	include 'cabecalho.php'; //alteração
