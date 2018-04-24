@@ -119,7 +119,7 @@
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
-                        <a href="informacao_imvel.html">		<img class="img_hover card__img" src="img/casa1.jpg" ></a>
+                        <a href="informacao-imovel.php">		<img class="img_hover card__img" src="img/casa1.jpg" ></a>
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapa-ap</span>
 						</p>
@@ -136,7 +136,7 @@
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
-						<a href="Informacao_imvel.html"><img class="img_hover card__img" src="img/destaque2.jpg"></a>
+						<a href="informacao-imovel.php"><img class="img_hover card__img" src="img/destaque2.jpg"></a>
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>
@@ -160,7 +160,7 @@
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
-                        <a href="informacao_imvel.html">	<img class="img_hover card__img" src="img/destaque1.jpg"></a>
+                        <a href="informacao-imovel.php">	<img class="img_hover card__img" src="img/destaque1.jpg"></a>
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>
@@ -177,7 +177,7 @@
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
-                        <a href="informacao_imvel.html"><img class="img_hover card__img" src="img/destaque1.jpg"></a>
+                        <a href="informacao-imovel.php"><img class="img_hover card__img" src="img/destaque1.jpg"></a>
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>
@@ -194,7 +194,7 @@
 							<span class="casa11" >Apartamentos</span>
 							<span class="casa">Casa</span>
 						</div>
-                        <a href="informacao_imvel.html">	<img class="img_hover card__img" src="img/casa111.jpg" style=""></a>
+                        <a href="informacao-imovel.php">	<img class="img_hover card__img" src="img/casa111.jpg" style=""></a>
 						<p class="idapartamentos">Casa no bairro buritizal<br>
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>

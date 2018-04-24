@@ -21,7 +21,7 @@
 
 				<div class="home1_categorias">
 					<ul>
-						<a href="cadrasto_cliente.html" class="alugue" >	<li > Alugue seu imóvel</li></a>
+						<a href="cadastro-cliente.php" class="alugue" >	<li > Alugue seu imóvel</li></a>
 						<a href="">	<li>Quem somos</li></a>
 						<a href=""><li>Contato</li></a>
 					</ul>
@@ -38,7 +38,7 @@
 					<button style="background:   #55ACEE;border: none; width: 30px;border-radius: 1em" >
 						<span class="fa fa-twitter  " ></span>
 					</button>
-					<a href="cadrastodousuario.html"><button class="btn cadrstese" >Cadastre-se</button></a>
+					<a href="cadastro-cliente.php"><button class="btn cadrstese" >Cadastre-se</button></a>
 
 				</div>	
 			</div>
@@ -66,10 +66,10 @@
 					<div class="navasub">
 
 
-						<a href="cadrasto_cliente.html"> <div class="linkalugue"> Alugue seu imóvel</div></a> 
+						<a href="cadastro-cliente.php"> <div class="linkalugue"> Alugue seu imóvel</div></a> 
 
 
-						<a href="casas.html"> <div class="link"> Casa</div></a> 
+						<a href="casas.php"> <div class="link"> Casa</div></a> 
 						<a href="#"><div class="link">Predio </div></a> 
 						<a href="#"><div class="link">Sobrados</div> </a> 
 						<a href="#"><div class="link">Terrenos</div></a> 
@@ -89,7 +89,7 @@
 					<li class="tipos_imoves"><a href="#" class="home2texto">Tipos  </a>
 
 						<ul>
-							<li><a href="casas.html">Casa</a> </li>
+							<li><a href="casas.php">Casa</a> </li>
 							<li><a href="#">Predio </a> </li>
 							<li><a href="#">Sobrados </a> </li>
 							<li><a href="#">Terrenos</a> </li>
@@ -98,14 +98,14 @@
 					</li>
 					<li><a href="#" class="home2texto">Bairros </a>
 						<ul>
-							<li><a href="bairro_universidade.html">Universidade</a> </li>
+							<li><a href="bairro-universidade.php">Universidade</a> </li>
                             <li><a href="#">Cogos </a> </li>
                             <li><a href="#">Buritizal </a> </li>
                             <li><a href="#">Zerão</a> </li>
                             <li><a href="#">Brasil novos </a> </li>
 						</ul>
 					</li>
-					<li><a href="lancamentos.html" class="home2texto2">Lançamentos  </a>
+					<li><a href="lancamentos.php" class="home2texto2">Lançamentos  </a>
 					</li>
 				</ul>
 
