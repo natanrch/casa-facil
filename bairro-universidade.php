@@ -28,7 +28,7 @@
 		<span class="venda">Venda</span>
 		
 		</div>
-        <a href="informacao_imvel.html">  <img src="img/casad.jpg "  ></a>
+        <a href="informacao-imovel.php">  <img src="img/casad.jpg "  ></a>
 			</div>
 	<div id="casas2">
 		<div class="titullocasa" >
@@ -52,7 +52,7 @@
 		<span class="venda">Venda</span>
 		
 		</div>
-        <a href="informacao_imvel.html">  <img src="img/casae.jpg "  ></a>
+        <a href="informacao-imovel.php">  <img src="img/casae.jpg "  ></a>
 			</div>
 	<div id="casas2">
 		<div class="titullocasa" >
@@ -76,7 +76,7 @@
 		<span class="venda">Venda</span>
 		
 		</div>
-        <a href="informacao_imvel.html"><img src="img/casaf.jpg "  ></a>
+        <a href="informacao-imovel.php"><img src="img/casaf.jpg "  ></a>
 			</div>
 	<div id="casas2">
 		<div class="titullocasa" >

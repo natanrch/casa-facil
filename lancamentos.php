@@ -23,7 +23,7 @@
 	</div>
 <div class="artigo1">
 	<div id="casas1" style="">
-        <a href="informacao_imvel.html">  <img src="img/casa111.jpg "  ></a>
+        <a href="informacao-imovel.php">  <img src="img/casa111.jpg "  ></a>
 			</div>
 	<div id="casas2">
 		<div class="titullocasa" >
@@ -42,7 +42,7 @@
 </div>
 <div class="artigo1">
 	<div id="casas1" style="">
-        <a href="informacao_imvel.html">   <img src="img/casa222.jpg "  ></a>
+        <a href="informacao-imovel.php">   <img src="img/casa222.jpg "  ></a>
 			</div>
 	<div id="casas2">
 		<div class="titullocasa" >
@@ -61,7 +61,7 @@
 </div>
 <div class="artigo1">
 	<div id="casas1" style="">
-        <a href="informacao_imvel.html">  <img src="img/casa1.jpg "  ></a>
+        <a href="informacao-imovel.php">  <img src="img/casa1.jpg "  ></a>
 			</div>
 	<div id="casas2">
 		<div class="titullocasa" >
