@@ -1,9 +1,7 @@
 
 <?php
-	$titulo = 'Página casa facil';
-	$cssExtra = '	<link rel="stylesheet" type="text/css" href="css/promocao.css">
-	<link rel="stylesheet" type="text/css" href="-css/principal.css">';
-	include 'cabecalho.php'; //alteração
+	include 'cria-cabecalho.php';
+	criaCabecalho('Página Inicial', array('css/promocao.css', '-css/principal.css'));
 ?>
 
 	<div id="promocao" style="margin: 0;padding: 0">
