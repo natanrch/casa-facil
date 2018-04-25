@@ -13,8 +13,8 @@
 		<article>
 			<h1>Apartamentos para alugar</h1>
 
-		<span><a href="" style="color: #2B2A2A;text-decoration:none;">	<p>Imoves<br>
-				Canpativel 
+		<span><a href="" style="color: #2B2A2A;text-decoration:none;">	<p>Imóveis<br>
+				Compatíveis 
 			</p></a>
 			</span>
 		</article>
