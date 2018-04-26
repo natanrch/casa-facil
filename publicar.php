@@ -5,7 +5,7 @@
 <div class=" container-fluid artigo" >
     <div class="row">
         <div class="col-12 mt-5 "  style="text-align: center;">
-            <h2 class="vedaseuimove" >venda seu imóvel</h2>
+            <h2 class="vedaseuimove" >Venda seu imóvel</h2>
         </div>
     </div>
     

@@ -9,8 +9,8 @@
 	 		
 	 		</div>
 	 		<div class="col-lg-6 col-sm-12  mt-4">
-	 		<h1 class="loginh1">faça seu login ou crie uma conta gratuita </h1>
-	 		<p class="loginp">Veja todos os seus anúncios em um só lugar. alugue seus<br> imóves forma rápida e fácil, altere seu perfil com segurança</p>
+	 		<h1 class="loginh1">Faça seu login ou crie uma conta gratuita </h1>
+	 		<p class="loginp">Veja todos os seus anúncios em um só lugar. Alugue seus<br> imóveis de forma rápida e fácil, altere seu perfil com segurança</p>
 	 		</div>
 	 		<div class="col-lg-3 col-sm-12 ">
 	 		
@@ -24,7 +24,7 @@
 	 			<div class="row">
               <div class="col-lg-12 col-sm-12  idcss " >
                   
-            <h3  class="textocadrasto"> <img src="ionicons/src/ios-person.svg" alt="icon chave" class="iconi3"> login Anunciante  </h3>
+            <h3  class="textocadrasto"> <img src="ionicons/src/ios-person.svg" alt="icon chave" class="iconi3"> Login Anunciante  </h3>
        
 
         </div>
@@ -60,7 +60,7 @@
             <input type="" class="form-control" id="user_name" name="user_name">
         </div>
         <div class="col-sm-12">
-            <label>Email</label>
+            <label>E-mail</label>
             <input type="email" class="form-control" name="user_email" id="user_email">
         </div>
         <div class="col-sm-12">

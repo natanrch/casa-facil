@@ -90,7 +90,7 @@
 
 						<ul>
 							<li><a href="casas.php">Casa</a> </li>
-							<li><a href="#">Predio </a> </li>
+							<li><a href="#">Prédio </a> </li>
 							<li><a href="#">Sobrados </a> </li>
 							<li><a href="#">Terrenos</a> </li>
 							<li><a href="#">Rural</a> </li>
@@ -99,7 +99,7 @@
 					<li><a href="#" class="home2texto">Bairros </a>
 						<ul>
 							<li><a href="bairro-universidade.php">Universidade</a> </li>
-                            <li><a href="#">Cogos </a> </li>
+                            <li><a href="#">Cogós </a> </li>
                             <li><a href="#">Buritizal </a> </li>
                             <li><a href="#">Zerão</a> </li>
                             <li><a href="#">Brasil novos </a> </li>

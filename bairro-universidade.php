@@ -32,7 +32,7 @@
 	<div id="casas2">
 		<div class="titullocasa" >
 			<h1>Casa no bairro universidade</h1>
-			<h2 class="peco"><span>R$</span> 300.50,00</h2>
+			<h2 class="peco"><span>R$</span> 300.500,00</h2>
 			<span class="float-xl-right icnis" >
 
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class=""  style="opacity: 2" >&nbsp;3
@@ -40,7 +40,7 @@
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" style="opacity: 2" >&nbsp;1
 							</span>
 		</div>
-		<p >	Apartamento em ótima localização no centro de Cascavel, com fino acabamento, possuindo 250m² de área total e 184m² de área privativa, contendo 01 suíte com closet e banheira de hidromassagem, 02 quartos, </p>
+		<p >	Apartamento em ótima localização no centro de Macapá, com fino acabamento, possuindo 250m² de área total e 184m² de área privativa, contendo 01 suíte com closet e banheira de hidromassagem, 02 quartos. </p>
 	</div>
 	
 </div>
@@ -56,7 +56,7 @@
 	<div id="casas2">
 		<div class="titullocasa" >
 			<h1>Casa no bairro universidade</h1>
-			<h2 class="peco"><span>R$</span> 300.50,00</h2>
+			<h2 class="peco"><span>R$</span> 300.500,00</h2>
 			<span class="float-xl-right icnis" >
 
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class=""  style="opacity: 2" >&nbsp;3
@@ -64,7 +64,7 @@
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" style="opacity: 2" >&nbsp;1
 							</span>
 		</div>
-		<p >	Apartamento em ótima localização no centro de Cascavel, com fino acabamento, possuindo 250m² de área total e 184m² de área privativa, contendo 01 suíte com closet e banheira de hidromassagem, 02 quartos, </p>
+		<p >	Apartamento em ótima localização no centro de Macapá, com fino acabamento, possuindo 250m² de área total e 184m² de área privativa, contendo 01 suíte com closet e banheira de hidromassagem, 02 quartos. </p>
 	</div>
 	
 </div>
@@ -80,7 +80,7 @@
 	<div id="casas2">
 		<div class="titullocasa" >
 			<h1>Casa no bairo universidade</h1>
-			<h2 class="peco"><span>R$</span> 300.50,00</h2>
+			<h2 class="peco"><span>R$</span> 300.500,00</h2>
 			<span class="float-xl-right icnis" >
 
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
@@ -88,7 +88,7 @@
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
 							</span>
 		</div>
-		<p >	Apartamento em ótima localização no centro de Cascavel, com fino acabamento, possuindo 250m² de área total e 184m² de área privativa, contendo 01 suíte com closet e banheira de hidromassagem, 02 quartos, </p>
+		<p >	Apartamento em ótima localização no centro de Macapá, com fino acabamento, possuindo 250m² de área total e 184m² de área privativa, contendo 01 suíte com closet e banheira de hidromassagem, 02 quartos. </p>
 	</div>
 	
 </div>
