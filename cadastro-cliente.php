@@ -1,7 +1,6 @@
 <?php
-	$titulo = 'Página inicial';
-	$cssExtra = '<link rel="stylesheet"  href="-css/cadrasto_cliente.css">';
-	include 'cabecalho.php';
+    include 'cria-cabecalho.php';
+    criaCabecalho('Bairro Universidade', array('-css/cadrasto_cliente.css'));
 ?>
 	
 	 <div class="container-fluid">

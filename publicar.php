@@ -1,7 +1,6 @@
 <?php
-    $titulo = 'Página inicial';
-    $cssExtra = '<link rel="stylesheet"  href="-css/publicar.css">';
-    include 'cabecalho.php';
+    include 'cria-cabecalho.php';
+    criaCabecalho('Bairro Universidade', array('-css/publicar.css'));
 ?>
 <div class=" container-fluid artigo" >
     <div class="row">

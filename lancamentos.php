@@ -1,7 +1,6 @@
 <?php
-	$titulo = 'Página inicial';
-	$cssExtra = '<link rel="stylesheet" href="-css/lancamentos.css" >	';
-	include 'cabecalho.php';
+	include 'cria-cabecalho.php';
+	criaCabecalho('Bairro Universidade', array('-css/lancamentos.css'));
 ?>
 	<div class="imgemfundo" >
 		

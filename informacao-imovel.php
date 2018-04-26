@@ -1,7 +1,6 @@
 <?php
-	$titulo = 'Página inicial';
-	$cssExtra = '<link rel="stylesheet"  href="-css/informacao_imovel.css">';
-	include 'cabecalho.php';
+    include 'cria-cabecalho.php';
+    criaCabecalho('Bairro Universidade', array('-css/informacao_imovel.css'));
 ?>
 	<div class="container">
 		<div class="row informacao_11">
