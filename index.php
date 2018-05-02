@@ -1,7 +1,7 @@
 
 <?php
 	include 'cria-cabecalho.php';
-	criaCabecalho('Página Inicial', array('css/promocao.css', '-css/principal.css'));
+	criaCabecalho('Casa Fácil', array('css/promocao.css', '-css/principal.css'));
 ?>
 
 	<div id="promocao" style="margin: 0;padding: 0">
