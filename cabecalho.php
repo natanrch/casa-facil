@@ -21,7 +21,7 @@
 
 				<div class="home1_categorias">
 					<ul>
-						<a href="cadastro-cliente.php" class="alugue" >	<li > Alugue seu imóvel</li></a>
+						<a href="publicar.php" class="alugue" >	<li > Alugue seu imóvel</li></a>
 						<a href="">	<li>Quem somos</li></a>
 						<a href=""><li>Contato</li></a>
 					</ul>
