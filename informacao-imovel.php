@@ -75,12 +75,12 @@
                         </a>
                     </div>
                 </div>
-                <div class="card-header  mt-2 card1-casa">
+                <!--<div class="card-header  mt-2 card1-casa">
                 	sahdhdsd
                 </div>
                 <div class="card-footer  mt-2   card1-casa">
                 	sahdhdsd
-                </div>
+                </div>-->
 					</div>
 
 					<div class="card mt-4">
