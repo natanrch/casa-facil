@@ -1,6 +1,6 @@
 <?php
     include 'cria-cabecalho.php';
-    criaCabecalho('Bairro Universidade', array('-css/publicar.css'));
+    criaCabecalho('Cadastrar Imóvel', array('-css/publicar.css'));
 ?>
 <div class=" container-fluid artigo" >
     <div class="row">

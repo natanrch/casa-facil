@@ -1,6 +1,6 @@
 <?php
 	include 'cria-cabecalho.php';
-	criaCabecalho('Bairro Universidade', array('-css/lancamentos.css'));
+	criaCabecalho('Lançamentos', array('-css/lancamentos.css'));
 ?>
 	<div class="imgemfundo" >
 		

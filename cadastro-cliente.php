@@ -1,6 +1,6 @@
 <?php
     include 'cria-cabecalho.php';
-    criaCabecalho('Bairro Universidade', array('-css/cadrasto_cliente.css'));
+    criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
 ?>
 	
 	 <div class="container-fluid">
