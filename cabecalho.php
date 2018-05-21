@@ -99,10 +99,10 @@
 					<li><a href="#" class="home2texto">Bairros </a>
 						<ul>
 							<li><a href="bairro-universidade.php">Universidade</a> </li>
-                            <li><a href="#">Cogós </a> </li>
+                            <li><a href="#">Congós </a> </li>
                             <li><a href="#">Buritizal </a> </li>
                             <li><a href="#">Zerão</a> </li>
-                            <li><a href="#">Brasil novos </a> </li>
+                            <li><a href="#">Brasil novo </a> </li>
 						</ul>
 					</li>
 					<li><a href="lancamentos.php" class="home2texto2">Lançamentos  </a>

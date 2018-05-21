@@ -10,7 +10,7 @@
 		<div class="cabesalho-artigo">
 			
 		<article>
-			<h1>Apartamentos para alugar</h1>
+			<h1>Casas</h1>
 
 		<span><a href="" style="color: #2B2A2A;text-decoration:none;">	<p>Imoves<br>
 				Canpativel 
@@ -33,7 +33,7 @@
 	<div id="casas2">
 		<div class="titullocasa" >
 			<h1>Casa no bairro buritizal</h1>
-			<h2 class="peco"><span>R$</span> 300.500,00</h2>
+			<h2 class="peco"><span>R$</span> 300.000,00</h2>
 			<span class="float-xl-right icnis" >
 
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
@@ -57,7 +57,7 @@
 	<div id="casas2">
 		<div class="titullocasa" >
 			<h1>Casa no bairro universidade</h1>
-			<h2 class="peco"><span>R$</span> 300.500,00</h2>
+			<h2 class="peco"><span>R$</span> 300.000,00</h2>
 			<span class="float-xl-right icnis" >
 
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class=""  style="opacity: 2" >&nbsp;3
@@ -81,7 +81,7 @@
 	<div id="casas2">
 		<div class="titullocasa" >
 			<h1>Casa no bairo muca</h1>
-			<h2 class="peco"><span>R$</span> 300.500,00</h2>
+			<h2 class="peco"><span>R$</span> 300.000,00</h2>
 			<span class="float-xl-right icnis" >
 
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
