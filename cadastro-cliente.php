@@ -44,26 +44,27 @@
                             <h3  class="textocadrasto">  <img src="ionicons/src/ios-home.svg" alt="icon chave" class="iconi3">Ainda não tenho uma conta </h3>
                         </div>
                     </div>
-                     <div class="col-sm-12">
-                        <label>Nome completo</label>
-                        <input type="text" class="form-control" id="nome_cad" name="nome_cad">
-                    </div>
-                    <div class="col-sm-12">
-                        <label>E-mail</label>
-                        <input type="email" class="form-control" name="email_cad" id="email_cad">
-                    </div>
-                    <div class="col-sm-12">
-                        <label>Senha</label>
-                       <input type="" class="form-control" id="senha_cad" name="senha_cad" >
-                       <p>Minimo 5 caracteres </p>
-                    </div>
-                    <div class="col-sm-12">
-                        <label>Repetir senha</label>
-                        <input type="" class="form-control" id="repetirsenha_cad" name="repetirsenha_cad">
-                    </div>
-                   <div class="form-group adicionar mt-4">
-                        <a href="#" class="btn btn-lg">Criar conta </a>
-                   </div>
+                    <form method="post" id="form_cad">
+                        <div class="col-sm-12">
+                            <label>Nome completo</label>
+                            <input type="text" class="form-control" id="nome_cad" name="nome_cad">
+                        </div>
+                        <div class="col-sm-12">
+                            <label>E-mail</label>
+                            <input type="email" class="form-control" name="email_cad" id="email_cad">
+                        </div>
+                        <div class="col-sm-12">
+                            <label>Senha</label>
+                           <input type="" class="form-control" id="senha_cad" name="senha_cad" >
+                        </div>
+                        <div class="col-sm-12">
+                            <label>Repetir senha</label>
+                            <input type="" class="form-control" id="repetirsenha_cad" name="repetirsenha_cad">
+                        </div>
+                        <div class="form-group adicionar mt-4">
+                            <button type="submit" class="btn btn-lg">Criar conta </button>
+                        </div>
+                   </form>
                 </div>
     	 </article>
 	 </div>
