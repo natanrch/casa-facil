@@ -1,6 +1,6 @@
 <?php
-    include 'cria-cabecalho.php';
-    criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
+include 'cria-cabecalho.php';
+criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
 ?>
 
 	   <div class="container-fluid">
@@ -69,4 +69,4 @@
     	 </article>
 	 </div>
 
-<?php include 'rodape.php'; ?>
+<?php include 'rodape.php';?>
