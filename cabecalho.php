@@ -20,7 +20,7 @@
 				<div class="home1_categorias">
 					<ul>
 						<a href="publicar.php" class="alugue" >	<li > Alugue seu imóvel</li></a>
-						<a href="">	<li>Quem somos</li></a>
+						<a href="quensomos.php">	<li>Quem somos</li></a>
 						<a href=""><li>Contato</li></a>
 					</ul>
 				</div>
@@ -103,7 +103,7 @@
                             <li><a href="#">Brasil novo </a> </li>
 						</ul>
 					</li>
-					<li><a href="lancamentos.php" class="home2texto2">Lançamentos  </a>
+					<li><a href="lancamentos.php" class="home2texto2  home2texto">Lançamentos  </a>
 					</li>
 				</ul>
 
