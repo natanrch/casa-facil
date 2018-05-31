@@ -1,4 +1,5 @@
 <?php
+
     include 'cria-cabecalho.php';
     criaCabecalho('Informações', array('-css/informacao_imovel.css'));
 ?>

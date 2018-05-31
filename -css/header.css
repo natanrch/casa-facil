@@ -286,10 +286,19 @@ body{
   padding: 5px 10px ;
   cursor: pointer;
 }
-@media all and (max-width: 700px){
+@media (min-width: 300px) and (max-width: 480px) {
   
-  .iconi1{
+  .logooimg{
+    height: 150px;
+    width: 100px;
+    margin-top: 20px;
+  }
+   .iconi1{
     width: 40px;
+    height: 30px;
+  }
+  #textobusca{
+    display: none;
   }
   #check:checked ~ .barra{
     transform: translate(300px);
@@ -300,10 +309,58 @@ body{
   .alugue{
     display: none;
   }
+  
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  .logooimg{
+    height: 150px;
+    width: 150px;
+    margin-top: 20px;
+  }
+  
+  .iconi1{
+    width: 40px;
+    height: 30px;
+  }
+  #textobusca{
+    display: none;
+  }
+  #check:checked ~ .barra{
+    transform: translate(300px);
+  } 
+  .home2{
+    display: none;
+  }
+  .alugue{
+    display: none;
+  }
+  
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  #textobusca{
+    width: 150px;
+    
+    
+  }
+  .logooimg{
+    height: 180px;
+    width: 160px;
+    margin-top: 20px;
+  }
+  .home2texto{
+  font-size: 18px;
+  }
+ 
+  
 }
 @media all and (max-width: 600px){
   
-  
+  .logooimg{
+    height: 150px;
+    width: 100px;
+    margin-top: 20px;
+  }
   .logoo{
    width: 50px;
    height: 40px;

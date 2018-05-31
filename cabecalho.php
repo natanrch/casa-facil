@@ -8,10 +8,8 @@
 	<link rel="stylesheet"  href="-css/header.css">
 	<link rel="stylesheet"  href="-css/footer.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<?= $cssExtra ?>
-	
-	
 </head>
 <body>
 
@@ -22,7 +20,7 @@
 				<div class="home1_categorias">
 					<ul>
 						<a href="publicar.php" class="alugue" >	<li > Alugue seu imóvel</li></a>
-						<a href="">	<li>Quem somos</li></a>
+						<a href="quensomos.php">	<li>Quem somos</li></a>
 						<a href=""><li>Contato</li></a>
 					</ul>
 				</div>
@@ -105,7 +103,7 @@
                             <li><a href="#">Brasil novo </a> </li>
 						</ul>
 					</li>
-					<li><a href="lancamentos.php" class="home2texto2">Lançamentos  </a>
+					<li><a href="lancamentos.php" class="home2texto2  home2texto">Lançamentos  </a>
 					</li>
 				</ul>
 
