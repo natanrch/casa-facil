@@ -15,6 +15,9 @@ class Imovel
 	public $titulo;
 	public $descricao;
 	public $alugarOuVender;
+	public $quartos;
+	public $banheiros;
+	public $garagem;
 
 	public function __construct($id = false)
 	{
@@ -41,6 +44,9 @@ class Imovel
             $this->titulo = $linha['titulo'];
             $this->descricao = $linha['descricao'];
             $this->alugarOuVender = $linha['alugar_ou_vender'];
+            $this->quartos = $linha['numero_de_quartos'];
+            $this->banheiros = $linha['numero_de_banheiros'];
+            $this->garagem = $linha['garagem'];
         }
 
     }
