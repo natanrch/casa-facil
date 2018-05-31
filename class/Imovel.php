@@ -1,8 +1,11 @@
 <?php
 
-class Imovel {
+require_once 'class/Conexao.php';
+
+class Imovel
+{
 	public $id;
-	public $proprietario;
+	//public $proprietario; #nao ha necessidade agora
 	public $endereco;
 	public $bairro;
 	public $area;
@@ -12,6 +15,36 @@ class Imovel {
 	public $titulo;
 	public $descricao;
 	public $alugarOuVender;
+
+	public function __construct($id = false)
+	{
+		if ($id) {
+			$this->id = $id;
+			$this->carregar();
+		}
+	}
+
+    public function carregar()
+    {
+        $conexao = Conexao::pegarConexao();
+    	$query = "SELECT * FROM imoveis where id = ".$this->id;
+        $resultado = $conexao->query($query);
+        $lista = $resultado->fetchAll();
+        foreach ($lista as $linha) {
+            $this->id = $linha['id'];
+            $this->endereco = $linha['endereco'];
+            $this->bairro = $linha['bairro'];
+            $this->area = $linha['area'];
+            $this->tipo = $linha['tipo'];
+            $this->valor = $linha['valor'];
+            $this->imagem = $linha['imagem'];
+            $this->titulo = $linha['titulo'];
+            $this->descricao = $linha['descricao'];
+            $this->alugarOuVender = $linha['alugar_ou_vender'];
+        }
+
+    }
+
 	//faltam demais atributos
 
 	// public function __construct($proprietario, $endereco, $bairro, $area, $tipo, $valor, $imagem, $titulo, $descricao) {
