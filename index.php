@@ -1,6 +1,11 @@
 
 <?php
-	include 'cria-cabecalho.php';
+	require_once 'cria-cabecalho.php';
+	require_once 'class/Imovel.php';
+
+	$imovel = new Imovel();
+	$lista = $imovel->listar();
+
 	criaCabecalho('Casa Fácil', array('css/promocao.css', '-css/principal.css'));
 ?>
 
@@ -93,76 +98,36 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="card-group">
-					<div class="card mr-3" >
-						<div class="Apartamento ">
-							<span class="casa11" >Apartamentos</span>
-							<span class="casa">Casa</span>
-						</div>
-						<figcaption>
-						<a  href="Informacao_imvel.html"><img  src="img/destaque1.jpg" class="img_hover card__img"></a>
-                         </figcaption>
-						<p class="idapartamentos">Casa no bairro buritizal<br>
-							<span  class="idapartamentos1">Macapá-ap</span>
-						</p>
-						<div class="preco col-12 card-body1 ">R$ 400.000,00
-							<span class="float-xl-right icnis" >
-								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
-								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
-								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
-							</span>
-						</div>
-					</div>
-					<div class="card mr-3" >
-						<div class="Apartamento ">
-							<span class="casa11" >Apartamentos</span>
-							<span class="casa">Casa</span>
-						</div>
-                        <a href="informacao-imovel.php">		<img class="img_hover card__img" src="img/casa1.jpg" ></a>
-						<p class="idapartamentos">Casa no bairro buritizal<br>
-							<span  class="idapartamentos1">Macapa-ap</span>
-						</p>
-						<div class="preco col-12 card-body1 ">R$ 400.000,00
-							<span class="float-xl-right icnis" >
-								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
-								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
-								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
-							</span>
-						</div>
-					</div>
-					<div class="card"  >
-						<div class="Apartamento ">
-							<span class="casa11" >Apartamentos</span>
-							<span class="casa">Casa</span>
-						</div>
-						<a href="informacao-imovel.php"><img class="img_hover card__img" src="img/destaque2.jpg"></a>
-						<p class="idapartamentos">Casa no bairro buritizal<br>
-							<span  class="idapartamentos1">Macapá-ap</span>
-						</p>
-						<div class="preco col-12 card-body1 ">R$ 400.000,00
-							<span class="float-xl-right icnis" >
-
-								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
-								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
-								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
-							</span>
-						</div>
-					</div>
+					<?php
+						$limite = 3;
+						$quebraLinha = 1;
+						foreach ($lista as $l):
+						if ($l['id'] > $limite) {
+							echo
+							'
 				</div>
 			</div>
 		</div>
-		<div class="row mt-3 mb-4">
+		<div class="row">
 			<div class="col-12">
 				<div class="card-group">
-					<div class="card" >
+							';
+						$quebraLinha++;
+						$limite = $limite*$quebraLinha;
+						}
+					?>
+					<div class="card mr-3" >
 						<div class="Apartamento ">
-							<span class="casa11" >Apartamentos</span>
-							<span class="casa">Casa</span>
+							<!--<span class="casa11" >Apartamentos</span>-->
+							<span class="casa"><?= $l['tipo'] ?></span>
 						</div>
-                        <a href="informacao-imovel.php">	<img class="img_hover card__img" src="img/destaque1.jpg"></a>
-						<p class="idapartamentos">Casa no bairro buritizal<br>
+						<figcaption>
+						<a  href="informacao-imovel.php?id=<?= $l['id'] ?>"><img  src="img/<?= $l['imagem'] ?>" class="img_hover card__img"></a>
+                         </figcaption>
+						<p class="idapartamentos"><?= $l['titulo'] ?><br>
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>
-						<div class="preco col-12 card-body1 ">R$ 400.000,00
+						<div class="preco col-12 card-body1 ">R$ <?= $l['valor'] ?>
 							<span class="float-xl-right icnis" >
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
 								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
@@ -170,43 +135,12 @@
 							</span>
 						</div>
 					</div>
-					<div class="card ml-3" >
-						<div class="Apartamento ">
-							<span class="casa11" >Apartamentos</span>
-							<span class="casa">Casa</span>
-						</div>
-                        <a href="informacao-imovel.php"><img class="img_hover card__img" src="img/destaque1.jpg"></a>
-						<p class="idapartamentos">Casa no bairro buritizal<br>
-							<span  class="idapartamentos1">Macapá-ap</span>
-						</p>
-						<div class="preco col-12 card-body1 ">R$ 400.000,00
-							<span class="float-xl-right icnis" >
-								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
-								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
-								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
-							</span>
-						</div>
-					</div>
-					<div class="card ml-3"  >
-						<div class="Apartamento ">
-							<span class="casa11" >Apartamentos</span>
-							<span class="casa">Casa</span>
-						</div>
-                        <a href="informacao-imovel.php">	<img class="img_hover card__img" src="img/casa111.jpg" style=""></a>
-						<p class="idapartamentos">Casa no bairro buritizal<br>
-							<span  class="idapartamentos1">Macapá-ap</span>
-						</p>
-						<div class="preco col-12 card-body1 ">R$ 400.000,00
-							<span class="float-xl-right icnis" >
-								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
-								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
-								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
-							</span>
-						</div>
-					</div>
+					<?php endforeach ?>
+
 				</div>
 			</div>
 		</div>
+
 	</main>
 
 <?php include 'rodape.php' ?>

@@ -51,6 +51,14 @@ class Imovel
 
     }
 
+	public function listar()
+    {
+        $query = "SELECT id, titulo, imagem, tipo, valor FROM imoveis";
+        $conexao = Conexao::pegarConexao();
+        $resultado = $conexao->query($query);
+        $lista = $resultado->fetchAll();
+        return $lista;
+    }
 	//faltam demais atributos
 
 	// public function __construct($proprietario, $endereco, $bairro, $area, $tipo, $valor, $imagem, $titulo, $descricao) {
