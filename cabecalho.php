@@ -19,7 +19,7 @@
 
 				<div class="home1_categorias">
 					<ul>
-						<a href="publicar.php" class="alugue" >	<li > Alugue seu imóvel</li></a>
+						<a href="publicar.php" class="alugue" >	<li > Cadastre seu imóvel</li></a>
 						<a href="quensomos.php">	<li>Quem somos</li></a>
 						<a href=""><li>Contato</li></a>
 					</ul>
@@ -112,11 +112,12 @@
 		<div class="navcabesalho3"  >
 			<div class=" home2" style="height: 100px;" >
 
-				<form class="pesquisa ">
+				<form class="pesquisa" action="pesquisa.php">
 
 
-					<img src="ionicons/src/android-search.svg" class="btnt">
-					<input  type="text" id="textobusca" placeholder="Buscar..." >
+					<!--<img src="ionicons/src/android-search.svg" class="btnt">-->
+					<input name="busca" type="text" id="textobusca" placeholder="Buscar..." >
+					<input type="submit" name="enviar" class="btn btn-primary" value="pesquisar">
 
 				</form>
 			</div>

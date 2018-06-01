@@ -98,24 +98,26 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="card-group">
-					<?php
-						$limite = 3;
-						$quebraLinha = 1;
-						foreach ($lista as $l):
-						if ($l['id'] > $limite) {
-							echo
-							'
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-12">
-				<div class="card-group">
-							';
-						$quebraLinha++;
-						$limite = $limite*$quebraLinha;
-						}
-					?>
+                    <?php
+                        $limite = 3;
+                        $quebraLinha = 1;
+                        $controle = 1;
+                        foreach ($lista as $l):
+                            if ($controle > $limite) {
+                                echo
+                                '
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="card-group">
+                                ';
+                            $quebraLinha++;
+                            $limite = $limite*$quebraLinha;
+                            }
+                        $controle++;
+                    ?>
 					<div class="card mr-3" >
 						<div class="Apartamento ">
 							<!--<span class="casa11" >Apartamentos</span>-->

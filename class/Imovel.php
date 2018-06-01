@@ -60,6 +60,15 @@ class Imovel
         return $lista;
     }
 
+	public function listarPorBairro($bairro)
+    {
+        $query = "SELECT id, titulo, imagem, tipo, valor, descricao FROM imoveis where bairro LIKE '%".$bairro."%'";
+        $conexao = Conexao::pegarConexao();
+        $resultado = $conexao->query($query);
+        $lista = $resultado->fetchAll();
+        return $lista;
+    }
+
 	public function inserir()
 	{
 		$query = "INSERT INTO `imoveis` (`id`, `usuario_id`, `endereco`, `bairro`, `area`, `tipo`, `valor`, `imagem`, `titulo`, `descricao`, `alugar_ou_vender`, `numero_de_quartos`, `numero_de_banheiros`, `garagem`) VALUES 
