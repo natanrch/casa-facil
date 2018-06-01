@@ -10,4 +10,6 @@ $id = 1;
 
 $imovel = new Imovel($id);
 
-var_dump($imovel);
+$imovel->inserir();
+
+echo 'funcionou até aqui';
