@@ -70,11 +70,11 @@
 							<span  class="idapartamentos1">Macapá-ap</span>
 						</p>
 						<div class="preco col-12 card-body1 ">R$ <?= $l['valor'] ?>
-							<span class="float-xl-right icnis" >
+<!-- 							<span class="float-xl-right icnis" >
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
 								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
-							</span>
+							</span> -->
 						</div>
 					</div>
 					<?php endforeach ?>
