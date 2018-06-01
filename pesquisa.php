@@ -3,10 +3,25 @@
 	require_once 'cria-cabecalho.php';
 	require_once 'class/Imovel.php';
 
-    $bairro = $_GET['busca'];
+	if(isset($_GET['busca'])) {
 
-    $imovel = new Imovel();
-    $lista = $imovel->listarPorBairro($bairro);
+	    $bairro = $_GET['busca'];
+
+	    $imovel = new Imovel();
+	    $lista = $imovel->listarPorBairro($bairro);
+	    $resultado = $bairro;
+		
+	}
+
+	if(isset($_GET['tipo'])) {
+
+	    $tipo = $_GET['tipo'];
+
+	    $imovel = new Imovel();
+	    $lista = $imovel->listarPorTipo($tipo);
+	    $resultado = $tipo;
+		
+	}
 
 	criaCabecalho('Casa Fácil', array('css/promocao.css', '-css/principal.css'));
 ?>
@@ -15,7 +30,7 @@
 		<div>
 			<div class="row">
 				<div class="col-12 content_cabesalho" >
-					<h1>Resultados para: <?= $bairro ?></h1>
+					<h1>Resultados para: <?= $resultado ?></h1>
 					<button class="btn mais" style=""> Veja mais » </button>
 				</div>
 			</div>

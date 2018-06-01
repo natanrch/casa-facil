@@ -87,20 +87,17 @@
 					<li class="tipos_imoves"><a href="#" class="home2texto">Tipos  </a>
 
 						<ul>
-							<li><a href="casas.php">Casa</a> </li>
-							<li><a href="#">Prédio </a> </li>
-							<li><a href="#">Sobrados </a> </li>
-							<li><a href="#">Terrenos</a> </li>
-							<li><a href="#">Rural</a> </li>
+							<li><a href="pesquisa.php?tipo=casa">Casa</a> </li>
+							<li><a href="pesquisa.php?tipo=apartamento">Apartamento</a> </li>
 						</ul>
 					</li>
 					<li><a href="#" class="home2texto">Bairros </a>
 						<ul>
-							<li><a href="bairro-universidade.php">Universidade</a> </li>
-                            <li><a href="#">Congós </a> </li>
-                            <li><a href="#">Buritizal </a> </li>
-                            <li><a href="#">Zerão</a> </li>
-                            <li><a href="#">Brasil novo </a> </li>
+							<li><a href="pesquisa.php?busca=universidade">Universidade</a> </li>
+							<li><a href="pesquisa.php?busca=buritizal">Buritizal</a> </li>
+							<li><a href="pesquisa.php?busca=centro">Centro</a> </li>
+							<li><a href="pesquisa.php?busca=santa rita">Santa Rita</a> </li>
+
 						</ul>
 					</li>
 					<li><a href="lancamentos.php" class="home2texto2  home2texto">Lançamentos  </a>
