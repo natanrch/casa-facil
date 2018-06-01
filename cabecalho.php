@@ -100,8 +100,6 @@
 
 						</ul>
 					</li>
-					<li><a href="lancamentos.php" class="home2texto2  home2texto">Lançamentos  </a>
-					</li>
 				</ul>
 
 			</div>
