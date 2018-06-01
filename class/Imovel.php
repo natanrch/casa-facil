@@ -5,7 +5,7 @@ require_once 'class/Conexao.php';
 class Imovel
 {
 	public $id;
-	//public $proprietario; #nao ha necessidade agora
+	public $proprietario; 
 	public $endereco;
 	public $bairro;
 	public $area;
@@ -62,7 +62,21 @@ class Imovel
 
 	public function inserir()
 	{
-		$query = "INSERT INTO `imoveis` (`id`, `usuario_id`, `endereco`, `bairro`, `area`, `tipo`, `valor`, `imagem`, `titulo`, `descricao`, `alugar_ou_vender`, `numero_de_quartos`, `numero_de_banheiros`, `garagem`) VALUES (NULL, '2', 'Rua Santos Dumont', 'Univesidade', '100', 'apartamento', '1500', 'img03.jpg', 'Apartamento para alugar no Universidade', 'Apartamento com 2 quartos, sem garagem', 'alugar', '2', '1', '1')";
+		$query = "INSERT INTO `imoveis` (`id`, `usuario_id`, `endereco`, `bairro`, `area`, `tipo`, `valor`, `imagem`, `titulo`, `descricao`, `alugar_ou_vender`, `numero_de_quartos`, `numero_de_banheiros`, `garagem`) VALUES 
+		(NULL, 
+		'".$this->proprietario."', 
+		'".$this->endereco."', 
+		'".$this->bairro."', 
+		'".$this->area."', 
+		'".$this->tipo."', 
+		'".$this->valor."', 
+		'".$this->imagem."', 
+		'".$this->titulo."', 
+		'".$this->descricao."', 
+		'".$this->alugarOuVender."', 
+		'".$this->quartos."', 
+		'".$this->banheiros."', 
+		'".$this->garagem."')";
         $conexao = Conexao::pegarConexao();
         $conexao->exec($query);
 

@@ -21,7 +21,7 @@
         
     <div class="col-lg-7 col-sm-12 cg" style="margin-left: 30px;margin: 5px auto">
 
-        <form role="form">
+        <form role="form" enctype="multipart/form-data" method="post" action="adiciona-imovel.php">
             <div class="row">
                 <div class=" col-lg-12 col-sm-12 idcss" >
             <h3 class="informacao">Informações do Imóvel</h3>
@@ -47,7 +47,7 @@
                         <label>Preço</label>
                         <div class="input-group">
                             <div class="input-group-addon">R$</div>
-                            <input class="form-control" type="number">
+                            <input class="form-control" type="number" name="valor">
                         </div>
                     </div>
                 </div>
@@ -60,6 +60,10 @@
                 <label>Endereço</label>
                 <input class="form-control" id="address" placeholder="Entre com a localização" autocomplete="off" type="text" name="endereco">
                 <p class="help-block">Você pode adicionar a localização</p>
+            </div>
+            <div class="form-group">
+                <label>Bairro</label>
+                <input class="form-control" type="text" name="bairro">
             </div>
             <div class="row">
                 <div class="col-sm-12 col-lg-3">
@@ -108,7 +112,7 @@
                                 <div class="file-preview-status text-center text-success"></div>
                                 <div class="file-preview-thumbnails"></div>
                             </div>
-                            <div class="btn btn-o btn-default btn-file"> <i class="glyphicon glyphicon-folder-open"></i>Adicionar Imagens <input class="file" multiple="" data-show-upload="false" data-show-caption="false" data-show-remove="false" accept="image/jpeg,image/png" data-browse-class="btn btn-o btn-default" data-browse-label="Browse Images" id="1520140310030" type="file"></div>
+                            <div class="btn btn-o btn-default btn-file"> <i class="glyphicon glyphicon-folder-open"></i>Adicionar Imagens <input class="file" multiple="" data-show-upload="false" data-show-caption="false" data-show-remove="false" accept="image/jpeg,image/png" data-browse-class="btn btn-o btn-default" data-browse-label="Browse Images" id="1520140310030" type="file" name="imagem"></div>
                         </div>
                         <p class="help-block">Você pode selecionar várias imagens</p>
                     </div>
@@ -143,7 +147,7 @@
                 </div>
             </div>
             <div class="form-group adicionar">
-                <a href="#" class="btn btn-lg">Adicionar Imóvel</a>
+                <input type="submit" name="enviar" class="btn btn-primary">
             </div>
         </form>
     </div>
