@@ -68,3 +68,7 @@
  label.error::before {
    content: "* ";
  }
+ #entrar{
+ background: #B30D0D;
+ color: #ffffff;
+ }

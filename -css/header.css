@@ -19,7 +19,7 @@ body{
 
   position: relative;
   top: -90px;
-  left: 20px;
+  left: 10px;
 
 }
 
@@ -64,12 +64,7 @@ body{
   background: #ffffff;
   font-weight: 600;
 }
-.home2{
-  
-  
 
-  
-}
 .home2 ul {
   margin: 0;
   padding: 0;
@@ -82,7 +77,7 @@ body{
   /*color: white;*/
   color: #B22222;
   text-decoration: none;
-  width: 150px;
+ 
 
 }
 
@@ -155,9 +150,9 @@ body{
 
 }
 .tipos_imoves{
-  margin-left: 60px;
+
 }
-.home2texto2{
+.home2texto{
   font-stretch: condensed;
   font-size: 25px;
   font-weight: 600;
@@ -179,26 +174,24 @@ body{
 }
 
 .navcabesalho{
-  display: flex;
-  flex-direction: row;
+  
 
 }
 
 .navcabesalho1{
-  width: 20%;height: 100px;
+ 
   background: #ECEBEB;
+  height: 100px;
 
 }
 .navcabesalho2{
-
-  width: 55%;
-  height: 100px;
+height: 100px;
+ 
   background: #ECEBEB;
 }
 .navcabesalho3{
 
-  width: 25%;
-  height: 100px;
+ height: 100px;
   background: #ECEBEB;
   
 
@@ -206,8 +199,7 @@ body{
 
 .iconi1{
   width: 0px;
-  margin-top: 15px;
-  margin-left: 20px;
+ 
 }
 .barra{
   
@@ -225,14 +217,15 @@ body{
 #icone{
   cursor: pointer;
   padding: 15px;
-  position: absolute;
-  z-index: 4;
+  position: relative;
+  z-index: ;
 }
 
 .navasub{
   width: 300px;
   position: absolute;
-  top: 75px;
+  background: #000;
+  top: 30px;
 
 
 }
@@ -272,46 +265,155 @@ body{
 }
 #textobusca{
   background: #E7E6E6;
-  width: 250px;
+  width: 230px;
   height: 55px;
   font-family: arial;
   font-size: 20px;
   float: left;
-  border:2px solid #ccc;
+  border:1px solid #ccc;
+  margin-left: 60px;
+  border-radius: 5px;
 }
-.btnt{
-  height: 55px;
-  width: 60px;
+#btnt{
+  height: 53px;
+  width: 100px;
+  background-color: #B22222;
+  border: none;
+
+ 
+}
+.pesquisa_tipos{
+  height: 0px;
+ 
+  }
+
+
+@media (min-width: 300px) and (max-width: 480px) {
+  #resdes{
+    margin-left: -18px;
+  }
+  .home1_categorias ul li{
+  font-size: 12px;
+}
+ 
+ 
+  .navcabesalho1{
+      
+  background: #ECEBEB;
+ 
+
+}
+#btnt{
+  height: 50px;
+  width: 80px;
+  background-color: #B22222;
+ 
+
+}
+#textobusca{
+    width: 180px;
+    margin-left: 140px;
+    height: 50px;
+    
+
+    
+  }
+#menupequisa{
+  height: 100px;
+  background: red;
+}
+.cadrstese{
+ display: none;
+}
+
+.navcabesalho2{
+display: none;
+}
+
+  .logooimg{
+    height: 200px;
+    width: 200px;
+    margin-top: 50px;
+    margin-left:  35px;
+
+  }
+  .pesquisa_tipos{
+  height: 50px;
+ 
+  }
+   .iconi1{
+    width: 35px;
+    height: 30px;
+    
+  }
+  
+  #check:checked ~ .barra{
+    transform: translate(300px);
+  } 
+  
+  .alugue{
+    display: none;
+  }
+    .home2texto{
+  font-size: 18px;
+
+  }
+
+  
+}
+@media (min-width: 481px) and (max-width: 770px) {
+  .btnt{
+  height: 50px;
+  width:  40px;
   background-color: #B22222;
   padding: 5px 10px ;
   cursor: pointer;
+
 }
-@media (min-width: 300px) and (max-width: 480px) {
+.pesquisa{
+margin:5px auto;
+margin-top: 20px;
+}
+#textobusca{
+    width: 200px;
+    
+    height: 50px;
+    
+
+    
+  }
+  #btnt{
+  height: 49px;
+  width: 90px;
+  background-color: #B22222;
+ 
+
+}
+  .navcabesalho2{
+   background: red;
+   height: 0px;
+
+  }
   
-  .logooimg{
+  .opcoes{
+    display: none;
+  }
+  #cadastro{
+   display: none;
+}
+   .home1_categorias ul li{
+  font-size: 12px;
+  
+}
+   .logooimg{
     height: 150px;
     width: 100px;
     margin-top: 20px;
   }
-   .iconi1{
-    width: 40px;
-    height: 30px;
-  }
-  #textobusca{
-    display: none;
-  }
-  #check:checked ~ .barra{
-    transform: translate(300px);
-  } 
-  .home2{
-    display: none;
-  }
-  .alugue{
-    display: none;
-  }
-  
-}
-@media (min-width: 481px) and (max-width: 767px) {
+  .logoo{
+   width: 50px;
+   height: 40px;
+ }
   .logooimg{
     height: 150px;
     width: 150px;
@@ -322,25 +424,38 @@ body{
     width: 40px;
     height: 30px;
   }
-  #textobusca{
-    display: none;
-  }
+
+  
   #check:checked ~ .barra{
     transform: translate(300px);
   } 
-  .home2{
-    display: none;
-  }
+ 
   .alugue{
     display: none;
+  }
+  .pesquisa_tipos{
+  height: 50px;
+ 
   }
   
   
 }
-@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+
+@media (min-width: 771px) and (max-width: 1024px) and (orientation: landscape) {
+    .home1_categorias ul li{
+  font-size: 12px;
+  
+}
+#cadastro{
+   padding: 5px;
+   font-size: 10px;
+}
+
   #textobusca{
     width: 150px;
-    
+     margin-left: 160px;
+
     
   }
   .logooimg{
@@ -350,19 +465,15 @@ body{
   }
   .home2texto{
   font-size: 18px;
+
+
   }
  
   
 }
-@media all and (max-width: 600px){
-  
-  .logooimg{
-    height: 150px;
-    width: 100px;
-    margin-top: 20px;
+@media (min-width: 1025px) and (max-width: 1200px) and (orientation: landscape) {
+  .home2texto{
+  font-size: 16px;
+
   }
-  .logoo{
-   width: 50px;
-   height: 40px;
- }
-}
+  }

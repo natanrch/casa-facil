@@ -17,7 +17,7 @@ criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
 
     	 	<article class="row">
     	 		<div class="col-lg-1 col-sm-12"></div>
-    	 		<div class="col-lg-4 col-sm-12   mt-4  cg" style="height: 320px;">
+    	 		<div class="col-lg-4 col-sm-12   mt-4  cg" style="height: 380px;">
         	 		<div class="row">
                         <div class="col-lg-12 col-sm-12  idcss " >
                             <h3  class="textocadrasto"> <img src="ionicons/src/ios-person.svg" alt="icon chave" class="iconi3"> Login Anunciante  </h3>
@@ -34,7 +34,7 @@ criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
 	                        <p><a href="#">Esqueci minha senha </a></p>
 	                    </div>
 	                    <div class="form-group adicionar">
-	                        <button class="btn btn-lg" type="submit"> Entrar</button>
+	                        <button class="btn btn-lg" type="submit" id="entrar"> Entrar</button>
 	                    </div>
                 	</form>
     	 		</div>
@@ -62,7 +62,7 @@ criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
                             <input type="" class="form-control" id="repetirsenha_cad" name="repetirsenha_cad">
                         </div>
                         <div class="form-group adicionar mt-4">
-                            <button type="submit" class="btn btn-lg">Criar conta </button>
+                            <button type="submit" class="btn btn-lg" id="entrar">Criar conta </button>
                         </div>
                    </form>
                 </div>

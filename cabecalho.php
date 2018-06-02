@@ -26,8 +26,8 @@
 				</div>
 
 				<div class="redes_sociais">
-					<button style="background:  #3B5998;border: none; width: 30px;border-radius: 1em" class="redes_sociais_butoes" >
-						<span class="fa fa-facebook-f"  ></span> 
+					<button style="background:  #3B5998;border: none; width: 30px;border-radius: 1em" class="redes_sociais_butoes " id="resdes"  >
+						<span class="fa fa-facebook-f "  ></span> 
 					</button>
 					
 					<button style="background:  #3F729B;border: none; width: 30px;border-radius: 1em" >
@@ -36,7 +36,7 @@
 					<button style="background:   #55ACEE;border: none; width: 30px;border-radius: 1em" >
 						<span class="fa fa-twitter  " ></span>
 					</button>
-					<a href="cadastro-cliente.php"><button class="btn cadrstese" >Cadastre-se</button></a>
+					<a href="cadastro-cliente.php"><button class="btn cadrstese " id="cadastro" >Cadastre-se</button></a>
 
 				</div>	
 			</div>
@@ -48,39 +48,22 @@
 
 
 	</div>
-	<nav  class="navcabesalho" >
-
-		<div class="navcabesalho1"  >
-			<div  style="height: 600px;" >
+	<nav   class="container-fluid" >
+    <div class="row">
+		<div class="navcabesalho1 col-md-3"  >
+			<div  >
 				<div class="logoo">
 				<a class="navbar-brand" href="index.php">
 					<img class="d-inline-block align-top logooimg " src="img/logotipo.png"  style="" alt="Logo" >
 
 				</a>
 				</div>
-				<input type="checkbox" name="" id="check">
-				<label id="icone" for="check">	<img src="iconic/svg/menu.svg" alt="icon chave" class="iconi1" ></label>
-				<div class="barra">
-					<div class="navasub">
-
-
-						<a href="cadastro-cliente.php"> <div class="linkalugue"> Alugue seu imóvel</div></a> 
-
-
-						<a href="casas.php"> <div class="link"> Casa</div></a> 
-						<a href="#"><div class="link">Predio </div></a> 
-						<a href="#"><div class="link">Sobrados</div> </a> 
-						<a href="#"><div class="link">Terrenos</div></a> 
-						<a href="#"><div class="link">Rural</div></a> 
-
-
-					</div>
-				</div>
+				
 			</div>
 		</div>
 
-		<div class="navcabesalho2"  >
-			<div class=" home2" style="height: 100px;" >
+		<div class="navcabesalho2 col-md-5"  >
+			<div class=" home2"  >
 
 
 				<ul>
@@ -100,22 +83,46 @@
 
 						</ul>
 					</li>
+
 				</ul>
 
 			</div>
 		</div>
-		<div class="navcabesalho3"  >
-			<div class=" home2" style="height: 100px;" >
+		<div class="navcabesalho3 col-md-4"  >
+			<div class=" home2"  >
 
 				<form class="pesquisa" action="pesquisa.php">
 
 
 					<!--<img src="ionicons/src/android-search.svg" class="btnt">-->
-					<input name="busca" type="text" id="textobusca" placeholder="Buscar..." >
-					<input type="submit" name="enviar" class="btn btn-primary" value="pesquisar">
+					<input name="busca" type="text"  id="textobusca" placeholder="Buscar..." >
+					<input type="submit" name="enviar" class="btn btn-primary" id="btnt" value="pesquisar">
 
 				</form>
 			</div>
 		</div>
+		</div>
 
 	</nav>
+	<div class=" pesquisa_tipos ">
+
+			<input type="checkbox" name="" id="check">
+			<label id="icone" for="check">	<img src="iconic/svg/m	enu.svg" alt="icon chave" class="iconi1"  ></label>
+              
+			<div class="barra">
+
+				<div class="navasub">
+					<a href="cadastro-cliente.php"> <div class="linkalugue" >Cadastre-se</div></a>
+
+					<a href="cadastro-cliente.php"> <div class="linkalugue"> Alugue seu imóvel</div></a> 
+
+
+					<a href="casas.php"> <div class="link"> Casa</div></a> 
+					<a href="#"><div class="link">Predio </div></a> 
+					<a href="#"><div class="link">Sobrados</div> </a> 
+					<a href="#"><div class="link">Terrenos</div></a> 
+					<a href="#"><div class="link">Rural</div></a> 
+
+				</div>
+			</div>
+		</div>
