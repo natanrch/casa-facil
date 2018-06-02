@@ -147,7 +147,8 @@
                 </div>
             </div>
             <div class="form-group adicionar">
-                <input type="submit" name="enviar" class="btn btn-primary">
+                <!-- <input type="submit" name="enviar" class="btn btn-primary"> -->
+                <button id="enviar"  name="enviar" type="submit" class="btn  btn-lg" ">Enviar</button>
             </div>
         </form>
     </div>
