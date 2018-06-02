@@ -50,7 +50,7 @@
 	</div>
 	<nav   class="container-fluid" >
     <div class="row">
-		<div class="navcabesalho1 col-md-3"  >
+		<div class="navcabesalho1 col-md-2"  >
 			<div  >
 				<div class="logoo">
 				<a class="navbar-brand" href="index.php">
@@ -62,12 +62,12 @@
 			</div>
 		</div>
 
-		<div class="navcabesalho2 col-md-5"  >
+		<div class="navcabesalho2 col-md-6"  >
 			<div class=" home2"  >
 
 
 				<ul>
-					<li class="tipos_imoves"><a href="#" class="home2texto">Tipos  </a>
+					<li class="tipos_imoves"><a href="#" class="home2texto">Tipos de imóveis  </a>
 
 						<ul>
 							<li><a href="pesquisa.php?tipo=casa">Casa</a> </li>

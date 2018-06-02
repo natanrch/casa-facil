@@ -14,12 +14,14 @@ body{
  
 
 }
+
 .logooimg{
   /*height: 150px;*/
 
   position: relative;
   top: -90px;
   left: 10px;
+  z-index: 2;
 
 }
 
@@ -66,14 +68,15 @@ body{
 }
 
 .home2 ul {
-  margin: 0;
-  padding: 0;
+
   list-style: none;
   position: relative;
+  text-align: center;
 }
 .home2 ul li a{
   display: block;
-  padding: 25px;
+  margin-top: 30px;
+
   /*color: white;*/
   color: #B22222;
   text-decoration: none;
@@ -89,6 +92,7 @@ body{
   float: left;
   list-style: none;
 
+
 }
 .home2 ul ul{
   display: none;
@@ -101,7 +105,7 @@ body{
 .home2 ul li:hover  {
   background-color:#F5F5F5 ;
   transition: 0.9s;
-
+ box-shadow:  1px 1px 2px 1px   #ccc;
 }
 .home2 ul li:hover a{
   
@@ -112,7 +116,7 @@ body{
 .home2 ul ul{
   background:#F5F5F5 ;
   padding: 0;
-
+   box-shadow:  1px 1px 0px 1px   #ccc;
   margin-top: 0;
   position: absolute;
   top: 100%;
@@ -130,8 +134,8 @@ body{
 .home2 ul ul li a{
   padding: 25px;
   color: white;
-  width: 200px;
-  text-align: left;
+  
+  
   font-family: helvetica ;
   font-size: 20px;
 }
@@ -139,24 +143,23 @@ body{
   background: lightblue;
   /*background: red linear-gradient(to right, rgba(0, 0, 0, 0.5), transparent); */
   transition: 0.9s;
+  width: 100%;
 
 } 
 .home2texto{
   font-stretch: condensed;
-  
+   margin-left:  30px;
   color: #064484;
   font-size: 25px;
   font-weight: 600;
+
+
 
 }
 .tipos_imoves{
 
 }
-.home2texto{
-  font-stretch: condensed;
-  font-size: 25px;
-  font-weight: 600;
-}
+
 .home2texto2:hover{
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent); 
   transition: 0.9s;
@@ -186,6 +189,9 @@ body{
 }
 .navcabesalho2{
 height: 100px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
  
   background: #ECEBEB;
 }
@@ -362,20 +368,13 @@ display: none;
   
 }
 @media (min-width: 481px) and (max-width: 770px) {
-  .btnt{
-  height: 50px;
-  width:  40px;
-  background-color: #B22222;
-  padding: 5px 10px ;
-  cursor: pointer;
-
-}
+  
 .pesquisa{
 margin:5px auto;
 margin-top: 20px;
 }
 #textobusca{
-    width: 200px;
+    width: 160px;
     
     height: 50px;
     
@@ -453,8 +452,8 @@ margin-top: 20px;
 }
 
   #textobusca{
-    width: 150px;
-     margin-left: 160px;
+    width: 180px;
+     
 
     
   }
