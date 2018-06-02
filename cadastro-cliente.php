@@ -34,7 +34,8 @@ criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
 	                        <p><a href="#">Esqueci minha senha </a></p>
 	                    </div>
 	                    <div class="form-group adicionar">
-	                        <button class="btn btn-lg" type="submit" id="entrar"> Entrar</button>
+	                        
+                             <button id="entrar"  type="submit" class="btn  btn-lg" ">Entrar</button>
 	                    </div>
                 	</form>
     	 		</div>
@@ -62,7 +63,8 @@ criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
                             <input type="" class="form-control" id="repetirsenha_cad" name="repetirsenha_cad">
                         </div>
                         <div class="form-group adicionar mt-4">
-                            <button type="submit" class="btn btn-lg" id="entrar">  Criar conta </button>
+                            <!-- <button type="submit" class="btn btn-lg" id="entrar">  Criar conta </button> -->
+                            <button id="entrar"  type="submit" class="btn  btn-lg" ">Criar conta</button>
                         </div>
                    </form>
                 </div>
