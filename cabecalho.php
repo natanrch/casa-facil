@@ -7,6 +7,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet"  href="-css/header.css">
 	<link rel="stylesheet"  href="-css/footer.css">
+	
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 	<?= $cssExtra ?>
@@ -67,7 +68,7 @@
 
 
 				<ul>
-					<li class="tipos_imoves"><a href="#" class="home2texto">Tipos de imóveis  </a>
+					<li class="tipos_imoves"><a href="#" class="home2texto">Tipos   </a>
 
 						<ul>
 							<li><a href="pesquisa.php?tipo=casa">Casa</a> </li>
@@ -84,13 +85,15 @@
 						</ul>
 					</li>
 
+    <li ><a href="servicos.php" class="home2texto-servicos">Serviços  </a></li>
 				</ul>
 
 			</div>
 		</div>
+		
 		<div class="navcabesalho3 col-md-4"  >
-			<div class=" home2"  >
-
+			<div class="pesquisa-content"  >
+                      
 				<form class="pesquisa" action="pesquisa.php">
 
 
