@@ -490,6 +490,9 @@ margin-top: 20px;
 
 
   }
+  .home2texto-servicos{
+ font-size: 18px;
+  }
  
   
 }
@@ -497,5 +500,9 @@ margin-top: 20px;
   .home2texto{
   font-size: 16px;
 
+
+  }
+  .home2texto-servicos{
+ font-size: 16px;
   }
   }
