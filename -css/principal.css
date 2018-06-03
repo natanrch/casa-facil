@@ -22,6 +22,7 @@ body {
 .container{
 	background: #ECEBEB;
 	margin-top: 20px;
+
 }
 .content_cabesalho{
 	background: #ECEBEB;
@@ -37,9 +38,9 @@ body {
 }
 .Apartamento{
 	position: absolute;
-	top: 190px;
+	top: 185px;
 
-	width: 100%;
+	
 }
 .casa11{
 	background-color: #E7E6E6;
@@ -59,12 +60,10 @@ body {
 	color: #fff;
 	background-color: #A72121;
 	float: right;
-
-	padding: 6px;
-	width: 70px;
-	text-align: center;
+	padding: 5px;
+	width: 120px;
 	font-family: arial ;
-	font-weight: 500;
+	font-weight: 400;
 }
 
 .idapartamentos{
@@ -84,10 +83,9 @@ body {
 .card-body1{
 	background:#F5F5F5;
 	height: 50px;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 16px;
-	color: #707070;
+	font-weight: 400;
+	font-stretch: condensed;
+	color: #1C1C1C;
 }
 
 .icnis{
@@ -99,6 +97,11 @@ body {
 
 
 }
+.icnis img{
+	width: 20px;
+	margin-top: 5px;
+
+}
 .mais{
 	background: #5B5B5B;color: #fff;
 bottom:  20px;
@@ -108,8 +111,132 @@ float: right;
 }
 .img_hover{
 	height: 227px;
-	width: 359px;
+	width: 100%;
 }
 .card__img {
-	max-width: 298px;
+	
+}
+@media (min-width: 300px) and (max-width: 480px) {
+  
+  
+  .content_cabesalho h1{
+	
+	font-size: 20px;
+}
+
+.mais{
+	height: 30px;
+	margin-top: 20px;
+	font-size: 12px;
+}
+#promocao{
+	min-height: 110px;
+}
+.card-body1{
+	min-height: 60px;
+}
+.icnis{
+	height: 100%;
+	background: #EEEDED;
+	
+	margin-right: -15px;
+	width: 60%;
+	float: right;
+	font-weight: 300;
+
+
+}
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .content_cabesalho h1{
+	
+	font-size: 30px;
+}
+
+.mais{
+	height: 30px;
+	margin-top: 20px;
+	font-size: 12px;
+} 
+.icnis{
+	
+	
+	
+	margin-right: -15px;
+	width: 100%;
+	display: block;
+	font-weight: 300;
+
+
+}
+ .icnis{
+	height: 100%;
+	background: #EEEDED;
+
+	margin-right: -15px;
+	width: 60%;
+	float: right;
+	font-weight: 300;
+
+
+}
+.icnis img{
+	width: 18px;
+	margin-top: 5px;
+
+}
+
+  
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .icnis{
+	
+	
+	
+	margin-right: -15px;
+	width: 100%;
+	display: block;
+	font-weight: 300;
+
+
+}
+
+
+#card-artigo{
+
+
+}
+
+.icnis{
+	height: 100%;
+	background: #EEEDED;
+
+	margin-right: -15px;
+	width: 60%;
+	float: right;
+	font-weight: 300;
+
+
+}
+ 
+}
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+ .icnis{
+	height: 100%;
+	background: #EEEDED;
+
+	margin-right: -15px;
+	width: 60%;
+	float: right;
+	font-weight: 300;
+
+
+}
+
+  
+}
+.imagem-pesquisa img{
+ width: 400px;
 }

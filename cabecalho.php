@@ -77,10 +77,11 @@
 					</li>
 					<li><a href="#" class="home2texto">Bairros </a>
 						<ul>
-							<li><a href="pesquisa.php?busca=universidade">Universidade</a> </li>
+							
 							<li><a href="pesquisa.php?busca=buritizal">Buritizal</a> </li>
 							<li><a href="pesquisa.php?busca=centro">Centro</a> </li>
 							<li><a href="pesquisa.php?busca=santa rita">Santa Rita</a> </li>
+							<li><a href="pesquisa.php?busca=universidade">Universidade</a> </li>
 
 						</ul>
 					</li>

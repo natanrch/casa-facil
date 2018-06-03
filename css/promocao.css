@@ -68,3 +68,33 @@
    min-height: 400px;
    
     }
+
+
+    
+    .valor{
+font-size: 20px;
+  float: right;
+  margin-right: 20px;
+  text-transform: uppercase;
+    }
+    .idapartamentos1{
+margin-right: 20px;
+float: right;
+    }
+    .texto-descricao{
+    text-indent: 50px;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+    @media (min-width: 300px) and (max-width: 480px) {
+  
+  #informe{
+ 
+
+  }
+  #imgem-imovel{
+
+  }
+  
+}
