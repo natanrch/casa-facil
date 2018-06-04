@@ -45,7 +45,7 @@ criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
                             <h3  class="textocadrasto">  <img src="ionicons/src/ios-home.svg" alt="icon chave" class="iconi3">Ainda não tenho uma conta </h3>
                         </div>
                     </div>
-                    <form method="post" id="form_cad">
+                    <form method="post" id="form_cad" action="adiciona-usuario.php">
                         <div class="col-sm-12">
                             <label>Nome completo</label>
                             <input type="text" class="form-control" id="nome_cad" name="nome_cad">
@@ -56,11 +56,11 @@ criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
                         </div>
                         <div class="col-sm-12">
                             <label>Senha</label>
-                           <input type="" class="form-control" id="senha_cad" name="senha_cad" >
+                           <input type="password" class="form-control" id="senha_cad" name="senha_cad" >
                         </div>
                         <div class="col-sm-12">
                             <label>Repetir senha</label>
-                            <input type="" class="form-control" id="repetirsenha_cad" name="repetirsenha_cad">
+                            <input type="password" class="form-control" id="repetirsenha_cad" name="repetirsenha_cad">
                         </div>
                         <div class="form-group adicionar mt-4">
                             <!-- <button type="submit" class="btn btn-lg" id="entrar">  Criar conta </button> -->

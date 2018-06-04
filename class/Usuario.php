@@ -23,6 +23,19 @@ class Usuario
         }
 	}
 
+
+	public function inserir()
+	{
+		$query = "INSERT INTO `usuarios` (`id`, `nome`, `email`, `senha`) VALUES 
+		(NULL, 
+		'".$this->nome."', 
+		'".$this->email."', 
+		'".$this->senha."')";
+        $conexao = Conexao::pegarConexao();
+        $conexao->exec($query);
+
+	}
+
 	// public function __construct($nome, $email) {
 	// 	$this->nome = $nome;
 	// 	$this->email = $email;
