@@ -1,4 +1,12 @@
 <?php
+
+
+    session_start();
+
+    if(!isset($_SESSION['email'])) {
+        header("Location: cadastro-cliente.php");
+    }
+
     include 'cria-cabecalho.php';
     criaCabecalho('Cadastrar Imóvel', array('-css/publicar.css'));
 ?>

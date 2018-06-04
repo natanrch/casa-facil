@@ -23,7 +23,7 @@ criaCabecalho('Cadastre-se', array('-css/cadrasto_cliente.css'));
                             <h3  class="textocadrasto"> <img src="ionicons/src/ios-person.svg" alt="icon chave" class="iconi3"> Login Anunciante  </h3>
                         </div>
                     </div>
-                    <form method="post" id="form_login">
+                    <form method="post" id="form_login" action="logar.php">
 	                    <div class="col-sm-12">
 	                        <label>Email</label>
 	                        <input type="email" class="form-control" name="user_email" id="user_email">
