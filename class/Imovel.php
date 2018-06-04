@@ -53,7 +53,7 @@ class Imovel
 
 	public function listar()
     {
-        $query = "SELECT id, titulo, imagem, tipo, valor FROM imoveis";
+        $query = "SELECT * FROM imoveis";
         $conexao = Conexao::pegarConexao();
         $resultado = $conexao->query($query);
         $lista = $resultado->fetchAll();
@@ -62,7 +62,7 @@ class Imovel
 
 	public function listarPorBairro($bairro)
     {
-        $query = "SELECT id, titulo, imagem, tipo, valor, descricao FROM imoveis where bairro LIKE '%".$bairro."%'";
+        $query = "SELECT * FROM imoveis where bairro LIKE '%".$bairro."%'";
         $conexao = Conexao::pegarConexao();
         $resultado = $conexao->query($query);
         $lista = $resultado->fetchAll();
@@ -71,7 +71,7 @@ class Imovel
 
 	public function listarPorTipo($tipo)
     {
-        $query = "SELECT id, titulo, imagem, tipo, valor, descricao FROM imoveis where tipo LIKE '%".$tipo."%'";
+        $query = "SELECT * FROM imoveis where tipo LIKE '%".$tipo."%'";
         $conexao = Conexao::pegarConexao();
         $resultado = $conexao->query($query);
         $lista = $resultado->fetchAll();

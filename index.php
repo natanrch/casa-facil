@@ -91,8 +91,8 @@
 			<div class="row">
 				<div class="col-12 content_cabesalho" >
 					<h1>Imóveis em destaque</h1>
-					<button class="btn mais" style=""> Veja mais » </button>
-				</div>
+<!-- 					<button class="btn mais" style=""> Veja mais » </button>
+ -->				</div>
 			</div>
 		</div>
 		<div class="row">
@@ -132,9 +132,9 @@
 						</p>
 						<div class=" card-body1 ">R$ <?= $l['valor'] ?>
 							<div class="float-xl-right icnis" >
-								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave"   >&nbsp;3
-								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class=""  style="opacity: 1" >&nbsp;2
-								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class=""  style="opacity: 2" >&nbsp;1
+								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave"   >&nbsp;<?= $l['numero_de_quartos'] ?>
+								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class=""  style="opacity: 1" >&nbsp;<?= $l['garagem'] ?>
+								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class=""  style="opacity: 2" >&nbsp; <?= $l['numero_de_banheiros'] ?>
 							</div>
 						</div>
 					</div>
