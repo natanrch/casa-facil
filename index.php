@@ -114,8 +114,8 @@
                                         <div class="col-12">
                                             <div class="card-group" >
                                 ';
-                            $quebraLinha++;
-                            $limite = $limite*$quebraLinha;
+                                $quebraLinha++;
+                                $limite = $limite*$quebraLinha;
                             }
                         $controle++;
                     ?>

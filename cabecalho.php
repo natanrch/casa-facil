@@ -86,8 +86,8 @@
 						</ul>
 					</li>
 
-    <li ><a href="servicos.php" class="home2texto-servicos">Serviços  </a></li>
-				</ul>
+<!--     <li ><a href="servicos.php" class="home2texto-servicos">Serviços  </a></li>
+ -->				</ul>
 
 			</div>
 		</div>
