@@ -289,12 +289,15 @@ justify-content: space-around;
   background: #E7E6E6;
   width: 230px;
   height: 55px;
-  font-family: arial;
+  
   font-size: 20px;
   float: left;
   border:1px solid #ccc;
  
   border-radius: 5px;
+  font-style:oblique;
+  font-weight: bold;
+  opacity: 1;
 }
 .pesquisa-content{
  
