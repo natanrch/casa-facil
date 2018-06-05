@@ -1,0 +1,62 @@
+@charset"utf-8";
+*{
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background: #DAD9D9;
+
+}
+.servicos-home{
+ min-height: 100px;
+ 
+ /*background: #f9f9f9;*/
+ background: #9D2629;
+	/*color: #444;*/
+	
+	
+	color: #fff;
+}
+.servicos-home h1{
+	font-size: 50px;
+	text-align: center;
+	font-weight: 700;
+
+}
+.servicos-artigo1{
+ min-height: 100px;
+  background: #DCDCDC;
+	
+}
+.servicos-artigo1 p{
+	
+	
+
+
+	color: #444;
+	margin: 20px;
+}
+.servicos-artigo2{
+ min-height: 200px;
+ background: #fff;
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ 
+}
+.servicos-opcao{
+width: 300px;
+height: 60px;
+background:#C0C0C0 ;
+border-radius: 10px;
+margin: 5px auto;
+	
+
+}
+.servicos-opcao h5{
+	color: #444;
+	text-transform: uppercase;
+		text-align: center;
+		margin-top: 18px;
+}
