@@ -15,7 +15,7 @@ criaCabecalho('Serviços', array( '-css/servicos.css'));
 	<div class="row">
 
 		<div class="col-md-12 servicos-artigo1">
-			<p>Para que nosso cliente tenha sempre o melhor e que seu poder de escolha possa ser utilizado em diversas maneiras, a casa facil trabalha com uma vasta gama de serviços. Abaixo você pode conferir quais são todos os nossos serviços. Em caso de dúvida, entre em contato com a gente!</p>
+			<p>Para que nossos cliente tenha sempre o melhor e que seu poder de escolha possa ser utilizado em diversas maneiras, a casa facil trabalha com uma vasta gama de serviços. Abaixo você pode conferir quais são todos os nossos serviços. Em caso de dúvida, entre em contato com a gente!</p>
 		</div>
 	</div>
 </div>
