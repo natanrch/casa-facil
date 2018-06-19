@@ -91,12 +91,12 @@
 							<p class="aluguepor"><?= $imovel->alugarOuVender ?></p>
 							<h2 >R$ <?= $imovel->valor ?>,00</h2>
 
-							<span class="float-xl-right icnis" >
+<!-- 							<span class="float-xl-right icnis" >
 
 								&nbsp;&nbsp;&nbsp;<img src="glyph-iconset-master/svg/si-glyph-key.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;3
 								<img src="glyph-iconset-master/svg/si-glyph-bank.svg" alt="icon chave" class="" width="25px" style="opacity: 1" >&nbsp;2
 								<img src="glyph-iconset-master/svg/si-glyph-shower.svg" alt="icon chave" class="" width="25px" style="opacity: 2" >&nbsp;1
-							</span>
+							</span> -->
 						</div>
 						<div class="card-body informacao2">
 							<p><?= $imovel->descricao ?></p>
