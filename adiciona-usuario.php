@@ -8,9 +8,9 @@ error_reporting(E_ALL);
 
 $usuario = new Usuario();
 
-$usuario->nome = $_POST['nome_cad'];
-$usuario->email = $_POST['email_cad'];
-$usuario->senha = $_POST['senha_cad'];
+$usuario->setNome($_POST['nome_cad']);
+$usuario->setEmail($_POST['email_cad']);
+$usuario->setSenha($_POST['senha_cad']);
 
 var_dump($usuario);
 
