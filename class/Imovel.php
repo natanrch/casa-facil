@@ -4,20 +4,20 @@ require_once 'class/Conexao.php';
 
 class Imovel
 {
-	public $id;
-	public $proprietario; 
-	public $endereco;
-	public $bairro;
-	public $area;
-	public $tipo;
-	public $valor;
-	public $imagem;
-	public $titulo;
-	public $descricao;
-	public $alugarOuVender;
-	public $quartos;
-	public $banheiros;
-	public $garagem;
+	private $id;
+	private $proprietario; 
+	private $endereco;
+	private $bairro;
+	private $area;
+	private $tipo;
+	private $valor;
+	private $imagem;
+	private $titulo;
+	private $descricao;
+	private $alugarOuVender;
+	private $quartos;
+	private $banheiros;
+	private $garagem;
 
 	public function __construct($id = false)
 	{
@@ -118,43 +118,102 @@ class Imovel
 	//  	$this->id = $id;
 	// }
 
-	// public function getId() {
-	//  	return $this->id;
-	// }
+	public function getId() {
+		return $this->id;
+	}
+	public function setId($id) {
+		$this->id = $id;
+	}
+	public function setProprietario($proprietario) {
+		$this->proprietario = $proprietario;
+	}
+	public function getProprietario() {
+		return $this->proprietario;
+	}
 
-	// public function getProprietario() {
-	//  	return $this->proprietario;
-	// }
+	public function setEndereco($endereco) {
+		$this->endereco = $endereco;
+	}
+	public function getEndereco() {
+		return $this->endereco;
+	}
 
-	// public function getEndereco() {
-	// 	return $this->endereco;
-	// }
+	public function setBairro($bairro) {
+		$this->bairro = $bairro;
+	}
+	public function getBairro() {
+		return $this->bairro;
+	}
 
-	// public function getBairro() {
-	// 	return $this->bairro;
-	// }
+	public function setArea($area) {
+		$this->area = $area;
+	}
+	public function getArea() {
+		return $this->area;
+	}
 
-	// public function getArea() {
-	// 	return $this->area;
-	// }
+	public function setTipo($tipo) {
+		$this->tipo = $tipo;
+	}
+	public function getTipo() {
+		return $this->tipo;
+	}
 
-	// public function getTipo() {
-	// 	return $this->tipo;
-	// }
+	public function setValor($valor) {
+		$this->valor = $valor;
+	}
+	public function getValor() {
+		return $this->valor;
+	}
 
-	// public function getValor() {
-	// 	return $this->valor;
-	// }
+	public function setImagem($imagem) {
+		$this->imagem = $imagem;
+	}
+	public function getImagem() {
+		return $this->imagem;
+	}
 
-	// public function getImagem() {
-	// 	return $this->imagem;
-	// }
+	public function setTitulo($titulo) {
+		$this->titulo = $titulo;
+	}
+	public function getTitulo() {
+		return $this->titulo;
+	}
 
-	// public function getTitulo() {
-	// 	return $this->titulo;
-	// }
+	public function setDescricao($descricao) {
+		$this->descricao = $descricao;
+	}
+	public function getDescricao() {
+		return $this->descricao;
+	}
 
-	// public function getDescricao() {
-	// 	return $this->descricao;
-	// }
+	public function setAlugarOuVender($alugarOuVender) {
+		$this->alugarOuVender = $alugarOuVender;
+	}
+	public function getAlugarOuVender() {
+		return $this->alugarOuVender;
+	}
+
+
+	public function setQuartos($quartos) {
+		$this->quartos = $quartos;
+	}
+	public function getQuartos() {
+		return $this->quartos;
+	}
+
+	public function setBanheiros($banheiros) {
+		$this->banheiros = $banheiros;
+	}
+	public function getBanheiros() {
+		return $this->banheiros;
+	}
+
+	public function setGaragem($garagem) {
+		$this->garagem = $garagem;
+	}
+	public function getGaragem() {
+		return $this->garagem;
+	}
+
 }

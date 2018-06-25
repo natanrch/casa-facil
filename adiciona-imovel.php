@@ -16,20 +16,20 @@ move_uploaded_file($nomeTempImagem, 'img/'.$nomeImagem);
 
 $imovel = new Imovel();
 
-$imovel->proprietario = 1;
+$imovel->setProprietario(1);
 
-$imovel->titulo = $_POST['titulo'];
-$imovel->tipo = $_POST['tipo'];
-$imovel->valor = $_POST['valor'];
-$imovel->descricao = $_POST['descricao'];
-$imovel->endereco = $_POST['endereco'];
-$imovel->bairro = $_POST['bairro'];
-$imovel->quartos = $_POST['quartos'];
-$imovel->banheiros = $_POST['banheiros'];
-$imovel->garagem = $_POST['garagem'];
-$imovel->area = $_POST['area'];
-$imovel->alugarOuVender = $_POST['alugar_ou_vender'];
-$imovel->imagem = $nomeImagem;
+$imovel->setTitulo($_POST['titulo']);
+$imovel->setTipo($_POST['tipo']);
+$imovel->setValor($_POST['valor']);
+$imovel->setDescricao($_POST['descricao']);
+$imovel->setEndereco($_POST['endereco']);
+$imovel->setBairro($_POST['bairro']);
+$imovel->setQuartos($_POST['quartos']);
+$imovel->setBanheiros($_POST['banheiros']);
+$imovel->setGaragem($_POST['garagem']);
+$imovel->setArea($_POST['area']);
+$imovel->setAlugarOuVender($_POST['alugar_ou_vender']);
+$imovel->setImagem($nomeImagem);
 
 var_dump($imovel);
 
